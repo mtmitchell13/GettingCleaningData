@@ -34,7 +34,7 @@ From there, the script performs the following actions:
 1. Read in the activity labels text file and assign column names
 2. Read in the features text file and assign column names
 3. Read in the three test text files, assign column names, combine to one file, and add a column with "test"
-4.Read in the three train text files, assign column names, combine to one file, and add a column with "train"
+4. Read in the three train text files, assign column names, combine to one file, and add a column with "train"
 5. Combine the test and train datasets into one called full_data
 6. Subset the full data into just mean and std columns; store in meanstd_data
 7. Merge in the activity_name
